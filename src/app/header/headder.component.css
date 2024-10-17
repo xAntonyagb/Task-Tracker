@@ -1,0 +1,50 @@
+/*Escrita e img*/
+.header {
+  background: linear-gradient(to right, #3c3c3c, #252525);
+  text-align: center;
+  border: 1px solid #000000;
+  margin: 0;
+}
+
+h1{
+  color: #ffffff;
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+.header h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header img {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
+
+/*Botoes*/
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #343a40;
+  padding: 10px 20px;
+  background-color: #e9ecef;
+  border-radius: 5px;
+}
+
+nav ul li a:hover {
+  color: #dc3545;
+  background-color: #dee2e6;
+}
